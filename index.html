@@ -4,67 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Rodrigo Sastre, desenvolvedor front-end em formação.">
-    <title>Rodrigo Sastre | Portfólio Front-end</title>
+    <meta name="description"
+        content="Portfólio de Rodrigo Sastre, desenvolvedor com foco em Python — automação, dados e back-end.">
+    <meta name="author" content="Rodrigo Sastre">
+    <title>Rodrigo Sastre | Desenvolvedor Python</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header class="site-header">
-        <a class="brand" href="#inicio" aria-label="Voltar ao início">Rodrigo Sastre</a>
+        <div class="header-inner">
+            <a class="brand" href="#inicio" aria-label="Voltar ao início">
+                <span class="brand-mark">&lt;/&gt;</span>
+                Rodrigo Sastre
+            </a>
 
-        <nav class="site-nav" aria-label="Navegação principal">
-            <a href="#sobre">Sobre</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contato">Contato</a>
-        </nav>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
     </header>
 
     <main id="inicio">
         <section class="hero section">
             <div class="hero-content">
-                <p class="eyebrow">Desenvolvedor front-end em formação</p>
-                <h1>Crio interfaces simples, responsivas e bem estruturadas.</h1>
+                <p class="eyebrow">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    Desenvolvedor Python
+                </p>
+                <h1>Construo soluções com <span class="accent-python">Python</span>: automação, dados e back-end.</h1>
                 <p class="hero-text">
-                    Sou Rodrigo Sastre. Estou construindo minha trajetória em tecnologia com foco em HTML,
-                    CSS, JavaScript e boas práticas para transformar ideias em experiências digitais.
+                    Sou Rodrigo Sastre. Transformo problemas em código limpo e organizado, com foco em Python
+                    para automação de tarefas, manipulação de dados e desenvolvimento back-end — apoiado por uma
+                    base sólida em HTML, CSS e JavaScript.
                 </p>
 
                 <div class="hero-actions" aria-label="Links principais">
                     <a class="button primary" href="#projetos">Ver projetos</a>
-                    <a class="button secondary" href="https://github.com/Rodrigo-Sastre" target="_blank" rel="noreferrer">
+                    <a class="button secondary" href="https://github.com/Rodrigo-Sastre" target="_blank"
+                        rel="noreferrer">
                         GitHub
                     </a>
                 </div>
+
+                <ul class="hero-stats" aria-label="Resumo rápido">
+                    <li>
+                        <strong>Python</strong>
+                        <span>Foco principal</span>
+                    </li>
+                    <li>
+                        <strong>Back-end</strong>
+                        <span>APIs &amp; automação</span>
+                    </li>
+                    <li>
+                        <strong>Dados</strong>
+                        <span>Análise &amp; scripts</span>
+                    </li>
+                </ul>
             </div>
 
-            <div class="profile-card" aria-label="Resumo profissional">
-                <img src="Imagens/Caricatura.png" alt="Caricatura de Rodrigo Sastre">
-                <div>
-                    <strong>Rodrigo Sastre</strong>
-                    <span>Front-end • HTML • CSS • JavaScript</span>
+            <div class="code-window" aria-label="Exemplo de código Python">
+                <div class="code-bar">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="code-file">dev.py</span>
                 </div>
+                <pre class="code-body"><code><span class="c-key">class</span> <span class="c-cls">Desenvolvedor</span>:
+    <span class="c-key">def</span> <span class="c-fn">__init__</span>(<span class="c-var">self</span>):
+        <span class="c-var">self</span>.nome = <span class="c-str">"Rodrigo Sastre"</span>
+        <span class="c-var">self</span>.foco = <span class="c-str">"Python"</span>
+        <span class="c-var">self</span>.stack = [
+            <span class="c-str">"automação"</span>,
+            <span class="c-str">"dados"</span>,
+            <span class="c-str">"back-end"</span>,
+        ]
+
+    <span class="c-key">def</span> <span class="c-fn">objetivo</span>(<span class="c-var">self</span>) -&gt; <span class="c-cls">str</span>:
+        <span class="c-key">return</span> <span class="c-str">"escrever código limpo e útil"</span>
+
+
+<span class="c-var">dev</span> = <span class="c-cls">Desenvolvedor</span>()
+<span class="c-fn">print</span>(<span class="c-var">dev</span>.objetivo())
+<span class="c-comment"># escrever código limpo e útil</span></code></pre>
             </div>
         </section>
 
         <section class="section about" id="sobre">
-            <div>
+            <div class="section-heading">
                 <p class="eyebrow">Sobre mim</p>
-                <h2>Da ideia ao digital, com atenção aos detalhes.</h2>
+                <h2>Do problema à solução, com Python.</h2>
             </div>
 
             <div class="about-text">
                 <p>
-                    Tenho interesse em desenvolvimento web, tecnologia e inovação. Meu objetivo é criar páginas
-                    acessíveis, organizadas e fáceis de usar, evoluindo projeto por projeto.
+                    Tenho interesse em desenvolvimento, automação e análise de dados. Hoje meu estudo é centrado
+                    em <strong>Python</strong>, por ser uma linguagem versátil, legível e presente em áreas como
+                    back-end, ciência de dados e inteligência artificial.
                 </p>
                 <p>
-                    Este portfólio foi reestruturado para apresentar melhor meu perfil profissional, minhas
-                    habilidades e meus próximos passos como desenvolvedor.
+                    Meu objetivo é criar scripts e aplicações organizadas, fáceis de manter e que resolvam
+                    problemas reais — evoluindo projeto por projeto, sempre cuidando da qualidade do código.
                 </p>
             </div>
         </section>
@@ -75,23 +123,51 @@
                 <h2>Tecnologias que estou praticando</h2>
             </div>
 
+            <article class="skill-feature">
+                <div class="skill-feature-text">
+                    <span class="badge">Linguagem principal</span>
+                    <h3>Python</h3>
+                    <p>
+                        Lógica de programação, estruturas de dados, funções, programação orientada a objetos e
+                        automação de tarefas. Base para crescer em back-end, análise de dados e bibliotecas do
+                        ecossistema Python.
+                    </p>
+                    <ul class="tag-list">
+                        <li>Automação</li>
+                        <li>Manipulação de dados</li>
+                        <li>POO</li>
+                        <li>Scripts</li>
+                        <li>APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-feature-icon" aria-hidden="true">
+                    <span class="py-logo">Py</span>
+                </div>
+            </article>
+
             <div class="skills-grid">
                 <article class="skill-card">
-                    <span>01</span>
-                    <h3>HTML semântico</h3>
-                    <p>Estrutura clara, títulos organizados, links acessíveis e conteúdo fácil de navegar.</p>
+                    <span class="skill-index">01</span>
+                    <h3>Bibliotecas Python</h3>
+                    <p>Primeiros passos com bibliotecas para dados e requisições, como Pandas e Requests.</p>
                 </article>
 
                 <article class="skill-card">
-                    <span>02</span>
-                    <h3>CSS responsivo</h3>
-                    <p>Layouts adaptáveis, espaçamento consistente e visual mais profissional em diferentes telas.</p>
+                    <span class="skill-index">02</span>
+                    <h3>HTML &amp; CSS</h3>
+                    <p>Estrutura semântica, layouts responsivos e visual organizado para a web.</p>
                 </article>
 
                 <article class="skill-card">
-                    <span>03</span>
+                    <span class="skill-index">03</span>
                     <h3>JavaScript</h3>
-                    <p>Base para criar interações, validar formulários e evoluir páginas estáticas para aplicações.</p>
+                    <p>Base para interações no navegador e integração com o back-end.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-index">04</span>
+                    <h3>Git &amp; GitHub</h3>
+                    <p>Versionamento de código, organização de commits e publicação de projetos.</p>
                 </article>
             </div>
         </section>
@@ -104,40 +180,57 @@
 
             <div class="project-list">
                 <article class="project-card">
-                    <div>
-                        <h3>Portfólio pessoal</h3>
+                    <div class="project-info">
+                        <span class="project-tech">Python</span>
+                        <h3>Automação com Python</h3>
                         <p>
-                            Página responsiva desenvolvida com HTML e CSS para apresentar perfil, habilidades e links
-                            profissionais.
+                            Espaço reservado para um script de automação — organização de arquivos, geração de
+                            relatórios ou consumo de uma API pública.
                         </p>
                     </div>
-                    <a href="https://rodrigo-sastre.github.io/site-front-end-sctec/" target="_blank" rel="noreferrer">
-                        Ver online
+                    <a href="https://github.com/Rodrigo-Sastre" target="_blank" rel="noreferrer">
+                        Ver no GitHub
                     </a>
                 </article>
 
                 <article class="project-card">
-                    <div>
-                        <h3>Próximo projeto</h3>
+                    <div class="project-info">
+                        <span class="project-tech">Python · Dados</span>
+                        <h3>Análise de dados</h3>
                         <p>
-                            Espaço reservado para destacar um projeto com JavaScript, consumo de API ou uma aplicação
-                            publicada.
+                            Projeto futuro para explorar e visualizar dados com Python, usando bibliotecas do
+                            ecossistema de ciência de dados.
                         </p>
                     </div>
                     <a href="#contato">Em desenvolvimento</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-info">
+                        <span class="project-tech">HTML · CSS</span>
+                        <h3>Portfólio pessoal</h3>
+                        <p>
+                            Página responsiva desenvolvida com HTML e CSS para apresentar perfil, habilidades e
+                            links profissionais.
+                        </p>
+                    </div>
+                    <a href="https://rodrigo-sastre.github.io/site-front-end-sctec/" target="_blank"
+                        rel="noreferrer">
+                        Ver online
+                    </a>
                 </article>
             </div>
         </section>
 
         <section class="section contact" id="contato">
-            <div>
+            <div class="section-heading">
                 <p class="eyebrow">Contato</p>
                 <h2>Vamos conversar sobre tecnologia e oportunidades.</h2>
             </div>
 
             <address class="contact-links">
-                <a href="mailto:rodrigo.sastre@example.com">rodrigo.sastre@example.com</a>
-                <a href="https://www.linkedin.com/in/rodrigo-sastre" target="_blank" rel="noreferrer">
+                <a href="mailto:ad7digitalmkt@gmail.com">ad7digitalmkt@gmail.com</a>
+                <a href="https://www.linkedin.com/in/rodrigosastre1983" target="_blank" rel="noreferrer">
                     LinkedIn
                 </a>
                 <a href="https://github.com/Rodrigo-Sastre" target="_blank" rel="noreferrer">
@@ -148,7 +241,7 @@
     </main>
 
     <footer class="site-footer">
-        <p>© 2026 Rodrigo Sastre. Todos os direitos reservados.</p>
+        <p>© 2026 Rodrigo Sastre. Construído com HTML, CSS e foco em Python.</p>
     </footer>
 </body>
 

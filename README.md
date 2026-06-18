@@ -1,6 +1,6 @@
 # Portfólio Rodrigo Sastre
 
-Projeto de portfólio pessoal desenvolvido com HTML e CSS, com foco em estrutura semântica, responsividade e apresentação profissional para GitHub Pages.
+Portfólio pessoal com foco em **Python** (automação, dados e back-end), apoiado por uma base em desenvolvimento web. Desenvolvido com HTML e CSS, com atenção à estrutura semântica, responsividade e apresentação profissional para GitHub Pages.
 
 🔗 Acesse: https://rodrigo-sastre.github.io/site-front-end-sctec/
 
@@ -8,17 +8,17 @@ Projeto de portfólio pessoal desenvolvido com HTML e CSS, com foco em estrutura
 
 O site apresenta:
 
-- resumo profissional;
+- resumo profissional com ênfase em Python;
 - seção sobre o desenvolvedor;
-- habilidades em desenvolvimento front-end;
-- área para projetos;
+- habilidades, destacando Python e o ecossistema da linguagem;
+- área de projetos (automação, dados e web);
 - links de contato e redes profissionais.
 
 ## Tecnologias
 
 - HTML5
 - CSS3
-- Google Fonts
+- Google Fonts (Inter e JetBrains Mono)
 
 ## Como visualizar
 
@@ -26,7 +26,7 @@ Abra o arquivo `index.html` no navegador ou publique o repositório com GitHub P
 
 ## Melhorias futuras
 
+- Adicionar projetos reais em Python com links de demonstração.
 - Atualizar os links e e-mail com dados reais.
-- Adicionar projetos publicados com links de demonstração.
 - Incluir JavaScript para interações e validações.
 - Criar uma versão em inglês do portfólio.
