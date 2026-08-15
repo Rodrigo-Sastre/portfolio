@@ -30,3 +30,4 @@ Abra o arquivo `index.html` no navegador ou publique o repositório com GitHub P
 - Atualizar os links e e-mail com dados reais.
 - Incluir JavaScript para interações e validações.
 - Criar uma versão em inglês do portfólio.
+- teste de atualização
