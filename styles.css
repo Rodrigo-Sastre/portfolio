@@ -12,7 +12,12 @@
     --python-blue: #4b8bbe;
     --python-blue-strong: #3776ab;
     --python-gold: #ffd43b;
-    --accent: var(--python-blue);
+
+    /* Identidade .NET / C# */
+    --dotnet-purple: #512bd4;
+    --dotnet-purple-light: #6d41f8;
+    
+    --accent: var(--dotnet-purple);
 
     --shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
     --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -31,8 +36,8 @@ html {
 body {
     margin: 0;
     background:
-        radial-gradient(1200px 600px at 80% -10%, rgba(75, 139, 190, 0.14), transparent 60%),
-        radial-gradient(900px 500px at -10% 10%, rgba(255, 212, 59, 0.06), transparent 55%),
+        radial-gradient(1200px 600px at 80% -10%, rgba(81, 43, 212, 0.14), transparent 60%),
+        radial-gradient(900px 500px at -10% 10%, rgba(75, 139, 190, 0.06), transparent 55%),
         var(--bg);
     color: var(--text);
     font-family: "Inter", Arial, sans-serif;
@@ -87,7 +92,7 @@ a {
     width: 32px;
     height: 32px;
     border-radius: 9px;
-    background: linear-gradient(135deg, var(--python-blue) 0%, var(--python-blue-strong) 100%);
+    background: linear-gradient(135deg, var(--dotnet-purple) 0%, var(--dotnet-purple-light) 100%);
     color: #fff;
     font-family: "JetBrains Mono", monospace;
     font-size: 0.8rem;
@@ -183,6 +188,13 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
+.accent-dotnet {
+    background: linear-gradient(120deg, var(--dotnet-purple-light) 0%, var(--python-blue) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 h2 {
     margin-bottom: 16px;
     font-size: clamp(1.8rem, 3.4vw, 2.7rem);
@@ -238,13 +250,13 @@ h3 {
 }
 
 .primary {
-    background: linear-gradient(135deg, var(--python-blue) 0%, var(--python-blue-strong) 100%);
+    background: linear-gradient(135deg, var(--dotnet-purple) 0%, var(--dotnet-purple-light) 100%);
     color: #fff;
-    box-shadow: 0 10px 24px rgba(55, 118, 171, 0.35);
+    box-shadow: 0 10px 24px rgba(81, 43, 212, 0.35);
 }
 
 .primary:hover {
-    box-shadow: 0 16px 30px rgba(55, 118, 171, 0.45);
+    box-shadow: 0 16px 30px rgba(81, 43, 212, 0.45);
 }
 
 .secondary {
@@ -424,7 +436,7 @@ h3 {
     width: 120px;
     height: 120px;
     border-radius: 28px;
-    background: linear-gradient(160deg, var(--python-blue) 0%, var(--python-blue-strong) 50%, var(--python-gold) 100%);
+    background: linear-gradient(160deg, var(--dotnet-purple) 0%, var(--dotnet-purple-light) 50%, var(--python-blue) 100%);
     color: #fff;
     font-family: "JetBrains Mono", monospace;
     font-size: 2.6rem;

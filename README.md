@@ -2,7 +2,7 @@
 
 Portfólio pessoal com foco em **Python** (automação, dados e back-end), apoiado por uma base em desenvolvimento web. Desenvolvido com HTML e CSS, com atenção à estrutura semântica, responsividade e apresentação profissional para GitHub Pages.
 
-🔗 Acesse: https://rodrigo-sastre.github.io/site-front-end-sctec/
+🔗 Acesse: https://rodrigo-sastre.github.io/portfolio/
 
 ## Visão geral
 

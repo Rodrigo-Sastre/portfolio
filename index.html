@@ -71,48 +71,38 @@
                 </ul>
             </div>
 
-            <div class="code-window" aria-label="Exemplo de código Python">
+            <div class="code-window" aria-label="Exemplo de código C#">
                 <div class="code-bar">
                     <span class="dot red"></span>
                     <span class="dot yellow"></span>
                     <span class="dot green"></span>
-                    <span class="code-file">dev.py</span>
+                    <span class="code-file">Program.cs</span>
                 </div>
-                <pre class="code-body"><code><span class="c-key">class</span> <span class="c-cls">Desenvolvedor</span>:
-    <span class="c-key">def</span> <span class="c-fn">__init__</span>(<span class="c-var">self</span>):
-        <span class="c-var">self</span>.nome = <span class="c-str">"Rodrigo Sastre"</span>
-        <span class="c-var">self</span>.foco = <span class="c-str">"Python"</span>
-        <span class="c-var">self</span>.stack = [
-            <span class="c-str">"automação"</span>,
-            <span class="c-str">"dados"</span>,
-            <span class="c-str">"back-end"</span>,
-        ]
+                <pre class="code-body"><code><span class="c-key">public class</span> <span class="c-cls">Desenvolvedor</span>
+{
+    <span class="c-key">public string</span> <span class="c-var">Nome</span> { <span class="c-key">get</span>; } = <span class="c-str">"Rodrigo Sastre"</span>;
+    <span class="c-key">public string</span> <span class="c-var">Foco</span> { <span class="c-key">get</span>; } = <span class="c-str">"C# .NET"</span>;
 
-    <span class="c-key">def</span> <span class="c-fn">objetivo</span>(<span class="c-var">self</span>) -&gt; <span class="c-cls">str</span>:
-        <span class="c-key">return</span> <span class="c-str">"escrever código limpo e útil"</span>
-
-
-<span class="c-var">dev</span> = <span class="c-cls">Desenvolvedor</span>()
-<span class="c-fn">print</span>(<span class="c-var">dev</span>.objetivo())
-<span class="c-comment"># escrever código limpo e útil</span></code></pre>
+    <span class="c-key">public void</span> <span class="c-fn">Objetivo</span>()
+    {
+        <span class="c-cls">Console</span>.<span class="c-fn">WriteLine</span>(<span class="c-str">"Transformando lógica em soluções."</span>);
+    }
+}</code></pre>
             </div>
         </section>
 
         <section class="section about" id="sobre">
             <div class="section-heading">
                 <p class="eyebrow">Sobre mim</p>
-                <h2>Do problema à solução, com Python.</h2>
+                <h2>Transformando o aprendizado em prática.</h2>
             </div>
 
             <div class="about-text">
                 <p>
-                    Tenho interesse em desenvolvimento, automação e análise de dados. Hoje meu estudo é centrado
-                    em <strong>Python</strong>, por ser uma linguagem versátil, legível e presente em áreas como
-                    back-end, ciência de dados e inteligência artificial.
+                    Minha jornada na programação começou há pouco menos de um ano, movida pela curiosidade de como a tecnologia resolve problemas do dia a dia. Iniciei meus estudos com <strong>Python</strong>, onde construí minha base em lógica, automação e manipulação de dados.
                 </p>
                 <p>
-                    Meu objetivo é criar scripts e aplicações organizadas, fáceis de manter e que resolvam
-                    problemas reais — evoluindo projeto por projeto, sempre cuidando da qualidade do código.
+                    Atualmente, meu foco total está no ecossistema <strong>C# .NET</strong>. Estou mergulhando no desenvolvimento back-end, aprendendo a criar aplicações robustas e escaláveis, sempre com o objetivo de entregar código limpo e bem estruturado.
                 </p>
             </div>
         </section>
@@ -126,48 +116,46 @@
             <article class="skill-feature">
                 <div class="skill-feature-text">
                     <span class="badge">Linguagem principal</span>
-                    <h3>Python</h3>
+                    <h3>C# / .NET</h3>
                     <p>
-                        Lógica de programação, estruturas de dados, funções, programação orientada a objetos e
-                        automação de tarefas. Base para crescer em back-end, análise de dados e bibliotecas do
-                        ecossistema Python.
+                        Desenvolvimento de aplicações usando C#, explorando POO, ASP.NET Core e a estrutura do framework .NET para criar soluções de back-end modernas.
                     </p>
                     <ul class="tag-list">
-                        <li>Automação</li>
-                        <li>Manipulação de dados</li>
+                        <li>C#</li>
+                        <li>.NET Core</li>
+                        <li>ASP.NET</li>
                         <li>POO</li>
-                        <li>Scripts</li>
-                        <li>APIs</li>
+                        <li>LINQ</li>
                     </ul>
                 </div>
                 <div class="skill-feature-icon" aria-hidden="true">
-                    <span class="py-logo">Py</span>
+                    <span class="py-logo">C#</span>
                 </div>
             </article>
 
             <div class="skills-grid">
                 <article class="skill-card">
                     <span class="skill-index">01</span>
-                    <h3>Bibliotecas Python</h3>
-                    <p>Primeiros passos com bibliotecas para dados e requisições, como Pandas e Requests.</p>
+                    <h3>Python</h3>
+                    <p>Lógica sólida, scripts de automação e manipulação de dados básica.</p>
                 </article>
 
                 <article class="skill-card">
                     <span class="skill-index">02</span>
                     <h3>HTML &amp; CSS</h3>
-                    <p>Estrutura semântica, layouts responsivos e visual organizado para a web.</p>
+                    <p>Criação de interfaces web responsivas e semânticas.</p>
                 </article>
 
                 <article class="skill-card">
                     <span class="skill-index">03</span>
-                    <h3>JavaScript</h3>
-                    <p>Base para interações no navegador e integração com o back-end.</p>
+                    <h3>SQL (Em estudo)</h3>
+                    <p>Aprendendo a gerenciar e consultar bancos de dados relacionais.</p>
                 </article>
 
                 <article class="skill-card">
                     <span class="skill-index">04</span>
                     <h3>Git &amp; GitHub</h3>
-                    <p>Versionamento de código, organização de commits e publicação de projetos.</p>
+                    <p>Controle de versão e colaboração em projetos de código aberto.</p>
                 </article>
             </div>
         </section>
@@ -214,7 +202,7 @@
                             links profissionais.
                         </p>
                     </div>
-                    <a href="https://rodrigo-sastre.github.io/site-front-end-sctec/" target="_blank"
+                    <a href="https://rodrigo-sastre.github.io/portfolio/" target="_blank"
                         rel="noreferrer">
                         Ver online
                     </a>
